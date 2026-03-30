@@ -92,7 +92,7 @@ export default function LandingPage({ setCurrentPage }) {
         <p className="footer-contact">
           Questions? Contact us at: <a href="mailto:contact@awebuilt.com">contact@awebuilt.com</a>
         </p>
-        <p className="footer-copyright">© 2025 Side Quest. All rights reserved.</p>
+        <p className="footer-copyright">© 2025 Why Enterprises LLC. All rights reserved.</p>
       </footer>
     </div>
   )
