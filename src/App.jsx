@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
-        <Route path="/delete-account" element={<DeleteAccount />} />
+        <Route path="/delete-accounts" element={<DeleteAccount />} />
       </Routes>
     </div>
   )
