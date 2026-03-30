@@ -1,0 +1,426 @@
+/* Delete Account Page Styles */
+
+.delete-account-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.delete-header {
+  background: linear-gradient(135deg, #3f3d3d 0%, #E60012 50%, #3f3d3d 100%);
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.delete-header .back-button {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  background: rgba(255, 255, 255, 0.2);
+  border: 5px solid white;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+}
+
+.delete-header .back-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateX(-4px);
+}
+
+.delete-header h1 {
+  font-family: 'Bungee', system-ui, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.delete-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.delete-card {
+  background: white;
+  padding: 40px;
+  border: 5px solid #3f3d3d;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.delete-form {
+  background: white;
+  padding: 40px;
+  border: 5px solid #3f3d3d;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.warning-box {
+  background: #fff3f3;
+  border: 5px solid #c9262b;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.warning-box h2 {
+  font-family: 'Bungee', system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #c9262b;
+  margin: 0 0 10px 0;
+  letter-spacing: 0.5px;
+}
+
+.warning-box p {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #3f3d3d;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+.contact-card {
+  background: #f0f8ff;
+  border: 5px solid #c9a961;
+  padding: 30px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.contact-instruction {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 15px;
+  color: #3f3d3d;
+  margin: 0 0 15px 0;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+}
+
+.contact-email-large {
+  font-family: 'Bungee', system-ui, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  color: #E60012;
+}
+
+.contact-email-large a {
+  color: #E60012;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-email-large a:hover {
+  color: #c9262b;
+}
+
+.contact-instruction-sub {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 13px;
+  color: #666;
+  margin: 15px 0 0 0;
+  letter-spacing: 0.3px;
+}
+
+.info-box {
+  background: white;
+  border: 5px solid #3f3d3d;
+  padding: 25px;
+  margin: 30px 0;
+}
+
+.info-box h3 {
+  font-family: 'Bungee', system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #3f3d3d;
+  margin: 0 0 15px 0;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.info-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.info-box li {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #3f3d3d;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3f3d3d;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.form-input {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 5px solid #3f3d3d;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  letter-spacing: 0.3px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #E60012;
+  box-shadow: 0 0 0 3px rgba(230, 0, 18, 0.1);
+}
+
+.form-help {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 12px;
+  color: #666;
+  margin-top: 6px;
+  margin-bottom: 0;
+  letter-spacing: 0.3px;
+}
+
+.checkbox-group {
+  margin-bottom: 30px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-label input {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+  border: 5px solid #3f3d3d;
+  accent-color: #E60012;
+}
+
+.checkbox-label span {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #3f3d3d;
+  letter-spacing: 0.3px;
+}
+
+.error-message {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  background: #fff3f3;
+  color: #c9262b;
+  padding: 12px 16px;
+  border-left: 5px solid #c9262b;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.delete-button {
+  font-family: 'Bungee', system-ui, sans-serif;
+  width: 100%;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #c9262b;
+  color: white;
+  border: 5px solid #3f3d3d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 12px rgba(201, 38, 43, 0.2);
+}
+
+.delete-button:hover:not(:disabled) {
+  background-color: #a91e22;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(201, 38, 43, 0.3);
+}
+
+.delete-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.form-note {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 13px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
+}
+
+.contact-email {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+.contact-email a {
+  color: #E60012;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.contact-email a:hover {
+  color: #c9262b;
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  background: white;
+  padding: 40px;
+  border: 5px solid #00A651;
+  box-shadow: 0 4px 12px rgba(0, 166, 81, 0.1);
+  text-align: center;
+}
+
+.success-message h2 {
+  font-family: 'Bungee', system-ui, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #00A651;
+  margin: 0 0 15px 0;
+  letter-spacing: 1px;
+}
+
+.success-message p {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #3f3d3d;
+  margin: 0 0 15px 0;
+  letter-spacing: 0.3px;
+}
+
+.back-to-landing-btn {
+  font-family: 'Bungee', system-ui, sans-serif;
+  padding: 12px 32px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #c9a961;
+  color: #3f3d3d;
+  border: 5px solid #3f3d3d;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-to-landing-btn:hover {
+  background-color: #d4b577;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .delete-header {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .delete-header h1 {
+    font-size: 24px;
+    width: 100%;
+    order: 2;
+    margin-top: 15px;
+  }
+
+  .delete-header .back-button {
+    order: 1;
+  }
+
+  .delete-container {
+    padding: 30px 20px;
+  }
+
+  .delete-card,
+  .delete-form {
+    padding: 25px 20px;
+  }
+
+  .contact-card {
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .contact-email-large {
+    font-size: 20px;
+  }
+
+  .info-box {
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .warning-box {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .warning-box h2 {
+    font-size: 18px;
+  }
+
+  .form-input {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .checkbox-label span {
+    font-size: 13px;
+  }
+
+  .success-message {
+    padding: 25px 20px;
+  }
+
+  .success-message h2 {
+    font-size: 24px;
+  }
+}
