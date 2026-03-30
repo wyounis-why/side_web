@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/LandingPage.css'
 import groupLogo from '../assets/group.png'
 
-export default function LandingPage({ setCurrentPage }) {
+export default function LandingPage() {
   return (
     <div className="landing-page">
       {/* Hero Section */}
@@ -68,26 +69,17 @@ export default function LandingPage({ setCurrentPage }) {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-links">
-          <button 
-            className="footer-link"
-            onClick={() => setCurrentPage('privacy')}
-          >
+          <Link to="/privacy" className="footer-link">
             Privacy Policy
-          </button>
+          </Link>
           <span className="link-divider">•</span>
-          <button 
-            className="footer-link"
-            onClick={() => setCurrentPage('terms')}
-          >
+          <Link to="/terms" className="footer-link">
             Terms & Conditions
-          </button>
+          </Link>
           <span className="link-divider">•</span>
-          <button 
-            className="footer-link"
-            onClick={() => setCurrentPage('delete')}
-          >
+          <Link to="/delete-account" className="footer-link">
             Delete Account
-          </button>
+          </Link>
         </div>
         <p className="footer-contact">
           Questions? Contact us at: <a href="mailto:contact@awebuilt.com">contact@awebuilt.com</a>

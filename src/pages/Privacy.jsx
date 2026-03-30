@@ -1,16 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/InfoPages.css'
 
-export default function Privacy({ setCurrentPage }) {
+export default function Privacy() {
   return (
     <div className="info-page">
       <header className="info-header">
-        <button 
-          className="back-button"
-          onClick={() => setCurrentPage('landing')}
-        >
+        <Link to="/" className="back-button">
           ← Back
-        </button>
+        </Link>
         <h1>Privacy Policy</h1>
       </header>
 

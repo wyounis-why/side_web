@@ -1,16 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/DeleteAccount.css'
 
-export default function DeleteAccount({ setCurrentPage }) {
+export default function DeleteAccount() {
   return (
     <div className="delete-account-page">
       <header className="delete-header">
-        <button 
-          className="back-button"
-          onClick={() => setCurrentPage('landing')}
-        >
+        <Link to="/" className="back-button">
           ← Back
-        </button>
+        </Link>
         <h1>Delete Account</h1>
       </header>
 
@@ -47,7 +45,7 @@ export default function DeleteAccount({ setCurrentPage }) {
 
           <button 
             className="back-to-landing-btn"
-            onClick={() => setCurrentPage('landing')}
+            onClick={() => window.location.href = '/'}
           >
             Back to Home
           </button>

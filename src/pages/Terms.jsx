@@ -1,16 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/InfoPages.css'
 
-export default function Terms({ setCurrentPage }) {
+export default function Terms() {
   return (
     <div className="info-page">
       <header className="info-header">
-        <button 
-          className="back-button"
-          onClick={() => setCurrentPage('landing')}
-        >
+        <Link to="/" className="back-button">
           ← Back
-        </button>
+        </Link>
         <h1>Terms & Conditions</h1>
       </header>
 
