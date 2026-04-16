@@ -37,6 +37,22 @@
   max-width: 600px;
 }
 
+.project-home-link {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+  display: inline-flex;
+  color: #ffffff;
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+
+.project-home-link:hover {
+  color: #c9a961;
+}
+
 .hero-logo {
   width: 120px;
   height: 120px;
@@ -288,6 +304,11 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .project-home-link {
+    top: 24px;
+    left: 20px;
+  }
+
   .hero-title {
     font-size: 48px;
     letter-spacing: 2px;

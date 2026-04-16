@@ -6,7 +6,7 @@ export default function DeleteAccount() {
   return (
     <div className="delete-account-page">
       <header className="delete-header">
-        <Link to="/" className="back-button">
+        <Link to="/side-quest" className="back-button">
           ← Back
         </Link>
         <h1>Delete Account</h1>
@@ -43,11 +43,11 @@ export default function DeleteAccount() {
             </ul>
           </div>
 
-          <button 
+          <button
             className="back-to-landing-btn"
-            onClick={() => window.location.href = '/'}
+            onClick={() => window.location.href = '/side-quest'}
           >
-            Back to Home
+            Back to Project
           </button>
         </div>
       </div>

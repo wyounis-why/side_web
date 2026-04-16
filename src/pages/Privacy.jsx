@@ -6,7 +6,7 @@ export default function Privacy() {
   return (
     <div className="info-page">
       <header className="info-header">
-        <Link to="/" className="back-button">
+        <Link to="/side-quest" className="back-button">
           ← Back
         </Link>
         <h1>Privacy Policy</h1>
