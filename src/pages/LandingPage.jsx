@@ -56,7 +56,7 @@ export default function LandingPage() {
       <section className="portfolio-hero">
         <div className="portfolio-copy">
           <p className="portfolio-kicker">Walid Younis Portfolio</p>
-          <h1>Products,and projects I&apos;ve Built.</h1>
+          <h1>Products, and projects I&apos;ve built.</h1>
           <p className="portfolio-summary">
             5 years in Software Engineer leading teams in devloping and launching products across web and mobile. 
           </p>

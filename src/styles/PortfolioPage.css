@@ -1,5 +1,7 @@
 .portfolio-page {
+  width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at top left, rgba(230, 0, 18, 0.18), transparent 28%),
     radial-gradient(circle at bottom right, rgba(201, 169, 97, 0.22), transparent 24%),
@@ -34,6 +36,7 @@
   font-size: clamp(3rem, 6vw, 5.8rem);
   line-height: 0.95;
   text-transform: uppercase;
+  overflow-wrap: anywhere;
 }
 
 .portfolio-summary {
@@ -241,6 +244,11 @@
 @media (max-width: 768px) {
   .portfolio-hero {
     padding-top: 88px;
+  }
+
+  .portfolio-copy h1 {
+    font-size: clamp(2.2rem, 12vw, 3.4rem);
+    line-height: 1.02;
   }
 
   .project-grid {
